@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#51B0D3</color>
+    <color name="mainColorHead">#54B6FC</color>
+    <color name="mainColorFoot">#28D3E0</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorWhite">@android:color/white</color>
+    <color name="colorAddCityHeadBG">#51B0D3</color>
+    <color name="ripperColor">#c0c0c0</color>
+    <color name="hintColor">#AAAAAA</color>
+    <color name="titleTopCity">#706f6f</color>
+    <color name="topicCityItemBG">#E7E7E7</color>
+    <color name="searchCityLine1Light">#499EBD</color>
+    <color name="searchCityLine1Other">#000</color>
+    <color name="searchCityLine2">#86898B</color>
+    <color name="listViewDivide">#D9D9D9</color>
+    <color name="errorText">#a0a0a0</color>
+</resources>

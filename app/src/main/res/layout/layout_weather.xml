@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorTransparent"
+        android:id="@+id/app_bar"
+        app:elevation="0dp"
+        >
+        <include layout="@layout/layout_weather_head"/>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ns"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:descendantFocusability="blocksDescendants"
+            >
+            <com.app.chenyang.sweather.ui.widget.WeatherChartView
+                android:id="@+id/daily_chart"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+            <com.app.chenyang.sweather.ui.widget.MyGridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gv_living_details"
+                android:numColumns="2"
+                >
+            </com.app.chenyang.sweather.ui.widget.MyGridView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

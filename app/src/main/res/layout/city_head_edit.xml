@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/colorAddCityHeadBG">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="15dp">
+        <com.app.chenyang.sweather.ui.widget.SmoothCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_all"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:id="@+id/tv_cball"
+        android:text="@string/select_city"
+        android:layout_marginLeft="8dp"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <TextView
+            style="@style/MainHeadText"
+            android:id="@+id/tv_delete"
+            android:text="@string/delete"
+            />
+    </LinearLayout>
+</LinearLayout>

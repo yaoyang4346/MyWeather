@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/search_city_line1"
+        style="@style/SearchCityText"
+        android:textColor="@color/searchCityLine1Other"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/search_city_line2"
+        style="@style/SearchCityText"
+        android:textColor="@color/searchCityLine2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="@string/auto_refresh"
+        android:key="auto_refresh"
+        android:entries="@array/auto_refresh_title"
+        android:entryValues="@array/auto_refresh_value"
+        android:defaultValue="3"
+        />
+    <CheckBoxPreference
+        android:key="gps"
+        android:defaultValue="false"
+        android:summaryOn="@string/on"
+        android:summaryOff="@string/off"
+        android:title="@string/gps" />
+</PreferenceScreen>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparent"
+    android:minHeight="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_weather_city"
+            style="@style/WeatherHeadText"
+            android:textSize="28sp" />
+        <TextView
+            android:layout_marginTop="55dp"
+            style="@style/WeatherHeadText"
+            android:textSize="16sp"
+            android:id="@+id/tv_weather_time"/>
+        <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ll_weather">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/iv_weather_icon"
+                android:src="@mipmap/s999"
+                android:layout_gravity="center_vertical"
+                android:transitionName="weather_icon"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_weather_temp"
+                style="@style/WeatherHeadText"
+                android:textSize="40sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="150dp"
+            style="@style/WeatherHeadText"
+            android:textSize="18sp"
+            android:id="@+id/tv_weather_aqi"/>
+        <TextView
+            android:id="@+id/tv_weather"
+            style="@style/WeatherHeadText"
+            android:layout_marginTop="180dp"
+            android:textSize="22sp" />
+    </FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/page_back"
+        android:src="@mipmap/back_50px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="112.5dp"
+        android:layout_marginLeft="8dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/page_forward"
+        android:src="@mipmap/forward_50px"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="112.5dp"
+        android:layout_marginRight="8dp"/>
+</RelativeLayout>

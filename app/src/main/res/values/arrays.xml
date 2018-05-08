@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="living_detail_title">
+        <item>Ultra-violet Index</item>
+        <item>Sunset</item>
+        <item>Wind-force</item>
+        <item>Dressing Index</item>
+        <item>Outdoor Exercise</item>
+        <item>Vehicle Cleaning</item>
+        <item>Degree Of Comfort</item>
+        <item>Cold index</item>
+    </string-array>
+    <string-array name="auto_refresh_title">
+        <item>None</item>
+        <item>Per hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Every 24 hours</item>
+    </string-array>
+    <string-array name="auto_refresh_value">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+</resources>

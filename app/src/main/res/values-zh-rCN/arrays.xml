@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="living_detail_title">
+        <item>紫外线指数</item>
+        <item>日落</item>
+        <item>风力</item>
+        <item>穿衣指数</item>
+        <item>户外锻炼</item>
+        <item>洗车</item>
+        <item>舒适度</item>
+        <item>感冒指数</item>
+    </string-array>
+    <string-array name="auto_refresh_title">
+        <item>无</item>
+        <item>每小时</item>
+        <item>每3小时</item>
+        <item>每6小时</item>
+        <item>每12小时</item>
+        <item>每24小时</item>
+    </string-array>
+    <string-array name="auto_refresh_value">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+</resources>
